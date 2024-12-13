@@ -243,8 +243,3 @@ resource "aws_autoscaling_attachment" "asg_tg_attachment" {
   autoscaling_group_name = aws_autoscaling_group.web_asg.id
   lb_target_group_arn       = aws_lb_target_group.app_tg.arn
 }
-
-# Outputs
-output "load_balancer_dns" {
-  value = aws_lb.app_lb.dns_name
-}
