@@ -95,11 +95,3 @@ Once deployed, the application will be accessible via the load balancer DNS:
 ```plaintext
 http://your-load-balancer-dns-name
 ```
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to replace `yourusername` and `your-repo` with the actual GitHub repository details. Let me know if you need additional sections!
